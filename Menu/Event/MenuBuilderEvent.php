@@ -17,7 +17,6 @@ use Knp\Menu\FactoryInterface;
 use Knp\Menu\ItemInterface;
 use Symfony\Component\EventDispatcher\Event;
 
-/** @psalm-suppress DeprecatedClass */
 class MenuBuilderEvent extends Event
 {
     /** @var FactoryInterface */

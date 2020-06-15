@@ -13,10 +13,7 @@ declare(strict_types=1);
 
 namespace Sylius\Bundle\UiBundle\Twig;
 
-use Twig\Extension\AbstractExtension;
-use Twig\TwigFilter;
-
-class PercentageExtension extends AbstractExtension
+class PercentageExtension extends \Twig_Extension
 {
     /**
      * {@inheritdoc}
@@ -24,7 +21,7 @@ class PercentageExtension extends AbstractExtension
     public function getFilters(): array
     {
         return [
-            new TwigFilter('sylius_percentage', [$this, 'getPercentage']),
+            new \Twig_Filter('sylius_percentage', [$this, 'getPercentage']),
         ];
     }
 

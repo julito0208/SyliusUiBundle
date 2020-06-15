@@ -3,20 +3,20 @@
     "type": "symfony-bundle",
     "description": "Generic UI bundle for Sylius eCommerce components.",
     "keywords": ["shop", "ecommerce", "store", "webshop", "sylius", "ui", "user interface"],
-    "homepage": "https://sylius.com",
+    "homepage": "http://sylius.com",
     "license": "MIT",
     "authors": [
         {
             "name": "Paweł Jędrzejewski",
-            "homepage": "https://pjedrzejewski.com"
+            "homepage": "http://pjedrzejewski.com"
         },
         {
             "name": "Sylius project",
-            "homepage": "https://sylius.com"
+            "homepage": "http://sylius.com"
         },
         {
             "name": "Community contributions",
-            "homepage": "https://github.com/Sylius/Sylius/contributors"
+            "homepage": "http://github.com/Sylius/Sylius/contributors"
         }
     ],
     "require": {
@@ -26,7 +26,7 @@
         "knplabs/knp-menu": "^3.1",
         "knplabs/knp-menu-bundle": "^3.0",
         "sonata-project/block-bundle": "^4.0",
-        "sylius/grid-bundle": "^1.6",
+        "sylius/grid-bundle": "^1.2",
         "symfony/framework-bundle": "^4.4",
         "symfony/security": "^4.4",
         "symfony/security-bundle": "^4.4",
@@ -36,7 +36,7 @@
     "require-dev": {
         "matthiasnoback/symfony-config-test": "^4.0",
         "matthiasnoback/symfony-dependency-injection-test": "^3.0",
-        "phpspec/phpspec": "^6.1",
+        "phpspec/phpspec": "^5.0",
         "phpunit/phpunit": "^7.0",
         "symfony/dependency-injection": "^4.4",
         "symfony/form": "^4.4",

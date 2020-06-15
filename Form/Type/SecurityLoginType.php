@@ -21,6 +21,9 @@ use Symfony\Component\Form\FormBuilderInterface;
 
 final class SecurityLoginType extends AbstractType
 {
+    /**
+     * {@inheritdoc}
+     */
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
@@ -37,6 +40,9 @@ final class SecurityLoginType extends AbstractType
         ;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function getBlockPrefix(): string
     {
         return 'sylius_security_login';

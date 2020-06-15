@@ -1,11 +1,11 @@
 // Sylius colors.
-$color-sylius: #1abb9c !default;
-$color-sylius-dark: darken($color-sylius, 5%) !default;
-$color-sylius-light: lighten($color-sylius, 5%) !default;
+$color-sylius: hsl(215,93,47);
+$color-sylius-dark: darken($color-sylius, 5%);
+$color-sylius-light: lighten($color-sylius, 5%);
 
 // Background colors.
-$color-background: #f9fAfb !default;
-$color-header-background: #f9fAfb !default;
+$color-background: #f9fAfb;
+$color-header-background: #f9fAfb;
 
 // Links.
-$color-link: rgba(0,0,0,.87) !default;
+$color-link: rgba(0,0,0,.87);
